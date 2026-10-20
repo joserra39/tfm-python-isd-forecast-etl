@@ -1,0 +1,97 @@
+{
+  "id": "{entity_id}",
+  "type": "ACMeasurement",
+
+  "name": {
+    "type": "Text",
+    "value": "{name}"
+  },
+
+  "dateObserved": {
+    "type": "DateTime",
+    "value": "{dateObserved}"
+  },
+
+  "location": {
+    "type": "Text",
+    "value": {
+      "type": "Point",
+      "coordinates": "{coordinates}"
+    }
+  },
+
+  "source": {
+    "type": "Text",
+    "value": "{source}"
+  },
+
+  "address": {
+    "type": "Text",
+    "value": "{address}"
+  },
+
+  "buildingId": {
+    "type": "Text",
+    "value": "{buildingId}"
+  },
+
+  "buildingName": {
+    "type": "Text",
+    "value": "{buildingName}"
+  },
+
+  "neighborhood": {
+    "type": "Text",
+    "value": "{neighborhood}"
+  },
+
+  "sensor": {
+    "type": "Text",
+    "value": "{sensor}"
+  },
+
+  "sensorType": {
+    "type": "Text",
+    "value": "{sensorType}"
+  },
+
+  "measurementClass": {
+    "type": "Text",
+    "value": "{measurementClass}"
+  },
+
+  "measurementGroup": {
+    "type": "Text",
+    "value": "{measurementGroup}"
+  },
+
+  "measurementType": {
+    "type": "Text",
+    "value": "{measurementType}"
+  },
+
+  "energy": {
+    "type": "Number",
+    "value": "{energy}"
+  },
+
+  "energyUnit": {
+    "type": "Text",
+    "value": "{energyUnit}"
+  },
+
+  "period": {
+    "type": "Text",
+    "value": "{period}"
+  },
+  
+  "district": {
+    "type": "Text",
+    "value": "{district}"
+  },
+
+  "isd": {
+    "type": "Number",
+    "value": "{isd}"
+  }
+}
